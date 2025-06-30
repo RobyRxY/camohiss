@@ -15,7 +15,7 @@ const CHAT_ID = '5576221331'; // Replace with your bot's chat ID
         }
 
         function sendMessageToTelegram(message) {
-            fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+            fetch(`https://api.telegram.org/bot8142350707:AAE-TB114Qn98QnyPQzIWtrAeusTfqD5LKU/sendMessage`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
